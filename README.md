@@ -1,0 +1,1 @@
+#Estudando Estrutura de Dados pelo Curso do CANAL [PythonPro](youtube.com/watch?v=UvvFaNV68Xs&t=2748s)
