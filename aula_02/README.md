@@ -1,0 +1,1 @@
+#Aula 02 que no caso foi da [Aula 01](youtube.com/watch?v=UvvFaNV68Xs&t=2748s), digamos que é um aula n+1 XD
