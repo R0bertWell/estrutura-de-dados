@@ -17,6 +17,9 @@ def meu_max(iteravel):
     return num_max
 
 
+"""
+Tests:
+"""
 if __name__ == '__main__':
     inicio = 10000000
     for n in range(0, inicio * 20 + 1, inicio):
