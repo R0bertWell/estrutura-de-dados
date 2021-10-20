@@ -1,32 +1,28 @@
-from time import time
 from math import inf
+from time import time
 
 
 def meu_max(iteravel):
     """
     Análise do algorítmo
-    Tempo de execução O(n)
-    Uso de memória O(1)
-    :param iteravel: list: int
-    :return: int
+    Tempo de execução, algoritmo O(n)
+    Em memória O(1)
+    :param iteravel:
+    :return:
     """
-    num_max = -inf
-    for iterado in iteravel:
-        if iterado > num_max:
-            num_max = iterado
-    return num_max
+    max_num = -inf
+    for i in iteravel:
+        if i > max_num:
+            max_num = i
+    return max_num
 
 
-"""
-Tests:
-"""
 if __name__ == '__main__':
+    print('Estudo experimental sobre o tempo de execução da função max:')
     inicio = 10000000
-    for n in range(0, inicio * 20 + 1, inicio):
-        # Interval (0, n-1)
-        interval = range(n)
-        init = time()
-        meu_max(interval)
+    for n in range(inicio, inicio * 20 + 1, inicio):
+        inicio = time()
+        meu_max(range(n))
         fim = time()
-        temp_exec = fim - init
-        print("*" * int(temp_exec*10), n)
+        tempo_de_exec = fim - inicio
+        print('*' * int(tempo_de_exec * 10), n)
