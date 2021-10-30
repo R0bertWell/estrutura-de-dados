@@ -1,4 +1,4 @@
-from aula_05.lista_duplamente_ligada.lista_duplamente_ligada import Lista, Noh, ListaVaziaErro
+from aula_05_06.lista_duplamente_ligada.lista_duplamente_ligada import Lista, Noh, ListaVaziaErro
 
 import unittest
 

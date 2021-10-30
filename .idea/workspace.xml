@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b718de-3fbb-46dc-ae37-f8ef8ab234b8" name="Default Changelist" comment="adicionado venv ao gitignore">
-      <change afterPath="$PROJECT_DIR$/aula_05/classes_analise/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_05/classes_analise/orientacao_a_objeto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_05/classes_analise/tratamento_de_erros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_05/lista_duplamente_ligada/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_05/lista_duplamente_ligada/lista_duplamente_ligada.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_05/testes_unittest/test_lista_duplamente_ligada.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_05/testes_unittest/test_lista_simples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_05/testes_unittest/test_minmax.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula_01/meu_max.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula_01/meu_max.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula_03_04/minmax_iterador.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula_03_04/minmax_iterador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_05/lista_duplamente_ligada/lista_duplamente_ligada.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula_05/lista_duplamente_ligada/lista_duplamente_ligada.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aula_05/lista_simples/lista_simples.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula_05/lista_simples/lista_simples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula_05/lista_simples/test_lista_simples.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula_05/testes_unittest/test_min_max.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_05/testes_unittest/test_lista_duplamente_ligada.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula_05/testes_unittest/test_lista_duplamente_ligada.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_05/testes_unittest/test_lista_simples.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula_05/testes_unittest/test_lista_simples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_05/testes_unittest/test_minmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula_05/testes_unittest/test_minmax.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +206,7 @@
       <workItem from="1634821263051" duration="11709000" />
       <workItem from="1635008480736" duration="7255000" />
       <workItem from="1635301925244" duration="2229000" />
-      <workItem from="1635561258972" duration="1976000" />
+      <workItem from="1635561258972" duration="2459000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, gitignore and README.md">
       <created>1613074788167</created>

@@ -1,7 +1,7 @@
 import unittest
 
-from aula_05.classes_analise.orientacao_a_objeto import Carro
-from aula_05.lista_simples.lista_simples import Noh, ListaLigadaSimples
+from aula_05_06.classes_analise.orientacao_a_objeto import Carro
+from aula_05_06.lista_simples.lista_simples import Noh, ListaLigadaSimples
 
 
 class TesteNoh(unittest.TestCase):
