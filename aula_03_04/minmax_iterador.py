@@ -20,13 +20,23 @@ def _min_max_recursive(iterador, minimum, maximum):
 def minmax(iteravel: Iterable) -> Tuple[Number, Number]:
     """
     >>> minmax([])
-    ()
+    Traceback (most recent call last):
+        ...
+    ValueError: não existe mínimo e máximo de iterável sem elemento
     >>> minmax([1])
     (1, 1)
+    >>> minmax(range(900))
+    (0, 899)
+    >>> minmax(i for i in range(5))
+    (0, 4)
+
 
     :param iteravel:
     :return:
     """
     iterador = iter(iteravel)
     minimun, _ = _min_max_recursive(iterador, inf, -inf)
-    return () if minimun == inf else (minimun, _)
+    if minimun is inf:
+        raise ValueError('não existe mínimo e máximo de iterável sem elemento')
+    # return () if minimun == inf else (minimun, _)
+    return minimun, _
