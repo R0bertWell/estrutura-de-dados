@@ -4,25 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b718de-3fbb-46dc-ae37-f8ef8ab234b8" name="Default Changelist" comment="Primeira aula terminada, análise do algoritmo meu_max">
-      <change afterPath="$PROJECT_DIR$/aula_02/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_02/hanoi_recursivo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_02/potencia_de_expoente.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_03/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_03/min_and_max.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_03/minmax_iterador.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_03/multiplos_parametros_e_retornos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_03/sequencias.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_03/vetor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/estrutura-de-dados.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/estrutura-de-dados.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c6b718de-3fbb-46dc-ae37-f8ef8ab234b8" name="Default Changelist" comment="adicionado venv ao gitignore">
+      <change afterPath="$PROJECT_DIR$/aula_05/classes_analise/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula_05/classes_analise/orientacao_a_objeto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula_05/classes_analise/tratamento_de_erros.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula_05/lista_duplamente_ligada/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula_05/lista_duplamente_ligada/lista_duplamente_ligada.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula_05/testes_unittest/test_lista_duplamente_ligada.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula_05/testes_unittest/test_lista_simples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula_05/testes_unittest/test_minmax.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula_01/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/aula_01/meu_max.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula_01/meu_max.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula_01/min_and_max.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula_01/potencia_de_expoente.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula_01/torre_de_hanoi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_03_04/minmax_iterador.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula_03_04/minmax_iterador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_05/lista_simples/lista_simples.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula_05/lista_simples/lista_simples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_05/lista_simples/test_lista_simples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_05/testes_unittest/test_min_max.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,15 +68,18 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\r0ber\PycharmProjects\estrutura-de-dados\aula_05\lista_duplamente_ligada" />
+      <recent name="C:\Users\r0ber\PycharmProjects\estrutura-de-dados\aula_05\lista_simples" />
+      <recent name="C:\Users\r0ber\PycharmProjects\estrutura-de-dados\aula_05\testes_unittest" />
       <recent name="C:\Users\r0ber\PycharmProjects\estrutura-de-dados\aula_01" />
       <recent name="C:\Users\Junior\estrutura-de-dados\aula_01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in minmax_iterador">
+  <component name="RunManager" selected="Python tests.Python tests for test_lista_duplamente_ligada.ListaTestes.test_iterar_reversed">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="estrutura-de-dados" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,146 +102,88 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest minmax" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_lista_duplamente_ligada.ListaTestes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="estrutura-de-dados" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\r0ber\PycharmProjects\estrutura-de-dados\aula_03_04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula_05/testes_unittest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula_03/minmax_iterador.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="minmax" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_lista_duplamente_ligada.ListaTestes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in minmax_iterador (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_lista_duplamente_ligada.ListaTestes.test_iterar_indice" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="estrutura-de-dados" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula_03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula_05/testes_unittest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula_03/minmax_iterador.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_lista_duplamente_ligada.ListaTestes.test_iterar_indice&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in minmax_iterador (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_lista_duplamente_ligada.ListaTestes.test_iterar_reversed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="estrutura-de-dados" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula_03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula_05/testes_unittest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula_03/minmax_iterador.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_lista_duplamente_ligada.ListaTestes.test_iterar_reversed&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in minmax_iterador" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_lista_duplamente_ligada.NohTestes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="estrutura-de-dados" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\r0ber\PycharmProjects\estrutura-de-dados\aula_03_04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula_05/testes_unittest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula_03/minmax_iterador.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_lista_duplamente_ligada.NohTestes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in minmax_iterador" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_lista_duplamente_ligada.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="estrutura-de-dados" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\r0ber\PycharmProjects\estrutura-de-dados\aula_03_04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula_05/testes_unittest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula_03/minmax_iterador.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctests in minmax_iterador" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="estrutura-de-dados" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\r0ber\PycharmProjects\estrutura-de-dados\aula_03_04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula_03/minmax_iterador.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctests in minmax_iterador" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="estrutura-de-dados" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\r0ber\PycharmProjects\estrutura-de-dados\aula_03_04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula_03/minmax_iterador.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/aula_05/testes_unittest/test_lista_duplamente_ligada.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Doctests in minmax_iterador" />
-        <item itemvalue="Python tests.Doctest minmax" />
-        <item itemvalue="Python tests.Doctests in minmax_iterador (3)" />
-        <item itemvalue="Python tests.Doctests in minmax_iterador (2)" />
-        <item itemvalue="Python tests.Doctests in minmax_iterador (1)" />
+        <item itemvalue="Python tests.Python tests for test_lista_duplamente_ligada.ListaTestes.test_iterar_reversed" />
+        <item itemvalue="Python tests.Python tests for test_lista_duplamente_ligada.ListaTestes" />
+        <item itemvalue="Python tests.Python tests for test_lista_duplamente_ligada.NohTestes" />
+        <item itemvalue="Python tests.Python tests for test_lista_duplamente_ligada.ListaTestes.test_iterar_indice" />
+        <item itemvalue="Python tests.Python tests in test_lista_duplamente_ligada.py" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +208,13 @@
       <workItem from="1634094305108" duration="1929000" />
       <workItem from="1634264682608" duration="616000" />
       <workItem from="1634351907394" duration="3742000" />
+      <workItem from="1634691969454" duration="4914000" />
+      <workItem from="1634778003695" duration="631000" />
+      <workItem from="1634779303571" duration="7679000" />
+      <workItem from="1634821263051" duration="11709000" />
+      <workItem from="1635008480736" duration="7255000" />
+      <workItem from="1635301925244" duration="2229000" />
+      <workItem from="1635561258972" duration="1976000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, gitignore and README.md">
       <created>1613074788167</created>
@@ -317,7 +265,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613241987867</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Aula 01 a 04, iniciado a 5 novamente">
+      <created>1634692340042</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634692340042</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adicionado venv ao gitignore">
+      <created>1634692402618</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634692402618</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +302,9 @@
     <MESSAGE value="Link Aula 01 (aula(n+1))" />
     <MESSAGE value="potencia de expoente usando complexidade constante, linear e logaritmica" />
     <MESSAGE value="Primeira aula terminada, análise do algoritmo meu_max" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeira aula terminada, análise do algoritmo meu_max" />
+    <MESSAGE value="Aula 01 a 04, iniciado a 5 novamente" />
+    <MESSAGE value="adicionado venv ao gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado venv ao gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -356,7 +320,7 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aula_03/min_and_max.py</url>
+          <url>file://$PROJECT_DIR$/aula_03_04/min_and_max.py</url>
           <line>97</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
@@ -364,17 +328,24 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/estrutura_de_dados$potencia_de_expoente.coverage" NAME="potencia_de_expoente Coverage Results" MODIFIED="1633486161356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_02" />
     <SUITE FILE_PATH="coverage/estrutura_de_dados$sequencias.coverage" NAME="sequencias Coverage Results" MODIFIED="1633997306430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
     <SUITE FILE_PATH="coverage/estrutura_de_dados$multiplos_parametros_e_retornos.coverage" NAME="multiplos_parametros_e_retornos Coverage Results" MODIFIED="1633998291879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
-    <SUITE FILE_PATH="coverage/estrutura_de_dados$Doctests_in_minmax_iterador__2_.coverage" NAME="Doctests in minmax_iterador (2) Coverage Results" MODIFIED="1634354663936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
     <SUITE FILE_PATH="coverage/estrutura_de_dados$min_and_max.coverage" NAME="min_and_max Coverage Results" MODIFIED="1634094441506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
-    <SUITE FILE_PATH="coverage/estrutura_de_dados$Doctests_in_minmax_iterador__1_.coverage" NAME="Doctests in minmax_iterador (1) Coverage Results" MODIFIED="1634354455069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
     <SUITE FILE_PATH="coverage/estrutura_de_dados$hanoi_recursivo.coverage" NAME="hanoi_recursivo Coverage Results" MODIFIED="1632879426416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_02" />
-    <SUITE FILE_PATH="coverage/estrutura_de_dados$Doctests_in_minmax_iterador__3_.coverage" NAME="Doctests in minmax_iterador (3) Coverage Results" MODIFIED="1634354717987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
     <SUITE FILE_PATH="coverage/estrutura_de_dados$Doctests_in_minmax_iterador.coverage" NAME="Doctests in minmax_iterador Coverage Results" MODIFIED="1634354957747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$.coverage" NAME=" Coverage Results" MODIFIED="1635563049797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_05/testes_unittest" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$pedir_numero.coverage" NAME="pedir_numero Coverage Results" MODIFIED="1634778600098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$Doctest_minmax__1_.coverage" NAME="Doctest minmax (1) Coverage Results" MODIFIED="1634781534656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03_04" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$potencia_de_expoente.coverage" NAME="potencia_de_expoente Coverage Results" MODIFIED="1633486161356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_02" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$Doctests_in_minmax_iterador__2_.coverage" NAME="Doctests in minmax_iterador (2) Coverage Results" MODIFIED="1634354663936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$Doctests_in_minmax_iterador__1_.coverage" NAME="Doctests in minmax_iterador (1) Coverage Results" MODIFIED="1634354455069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$Doctests_in_minmax_iterador__3_.coverage" NAME="Doctests in minmax_iterador (3) Coverage Results" MODIFIED="1634354717987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$lista_duplamente_ligada.coverage" NAME="lista_duplamente_ligada Coverage Results" MODIFIED="1635013795595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_05/lista_duplamente_ligada" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$lista_simples.coverage" NAME="lista_simples Coverage Results" MODIFIED="1634822568591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_05/lista_simples" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$tratamento_de_erros.coverage" NAME="tratamento_de_erros Coverage Results" MODIFIED="1634780425602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_05/classes_analise" />
     <SUITE FILE_PATH="coverage/estrutura_de_dados$meu_max.coverage" NAME="meu_max Coverage Results" MODIFIED="1632597246659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_02" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$orientacao_a_objeto.coverage" NAME="orientacao_a_objeto Coverage Results" MODIFIED="1634693012516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_05/classes_analise" />
     <SUITE FILE_PATH="coverage/estrutura_de_dados$vetor.coverage" NAME="vetor Coverage Results" MODIFIED="1633802979871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
-    <SUITE FILE_PATH="coverage/estrutura_de_dados$Doctest_minmax.coverage" NAME="Doctest minmax Coverage Results" MODIFIED="1634354925489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03" />
+    <SUITE FILE_PATH="coverage/estrutura_de_dados$Doctest_minmax.coverage" NAME="Doctest minmax Coverage Results" MODIFIED="1634781527700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula_03_04" />
   </component>
 </project>
