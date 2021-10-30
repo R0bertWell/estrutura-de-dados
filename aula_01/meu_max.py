@@ -11,7 +11,7 @@ def meu_max(iteravel):
     :return:
     """
     max_num = -inf
-    for i in iteravel:
+    for i in [1, 2, 3, 4, 5, 6]:
         if i > max_num:
             max_num = i
     return max_num
